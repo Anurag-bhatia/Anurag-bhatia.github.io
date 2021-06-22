@@ -11,7 +11,7 @@ html{
     scroll-behavior: smooth;
 }
 
-/* custom scroll bar */
+/* custom scroll bar styling */
 ::-webkit-scrollbar {
     width: 10px;
 }
@@ -168,7 +168,6 @@ section .title::after{
 /* home section styling */
 .home{
     display: flex;
-    /* background: url("images/banner.jpg") no-repeat center; */
     height: 100vh;
     background-color: #008ECC;
     color: #fff;
@@ -267,7 +266,7 @@ section .title::after{
     background: none;
 }
 
-/* services section styling */
+/* Skillls section styling */
 .services, .teams{
     color:#fff;
     background: #008ECC;
@@ -287,6 +286,7 @@ section .title::after{
     text-align: center;
     border-radius: 6px;
     padding: 35px 25px;
+    color: #fff;
     cursor: pointer;
     box-shadow: 0 4px 8px 0 rgba(0.2,0.4,0.2,0.4);
     transition: all 0.3s ease;
@@ -297,6 +297,7 @@ section .title::after{
     background: #0F528A;
 }
 .services .serv-content .card .box{
+    color: #fff; 
     transition: all 0.3s ease;
 }
 .services .serv-content .card:hover .box{
@@ -391,9 +392,9 @@ section .title::after{
     width: 70%;
 }
 
-/* teams section styling */
+/* Project section styling */
 .teams .title::after{
-    content: "who with me";
+    content: "what I make";
 }
 .teams .carousel .card{
     background: #0F528A;
@@ -418,10 +419,11 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
-    font-weight: 500;
+    font-size: 20px;
+    font-weight: 400;
     margin: 10px 0 7px 0;
 }
+
 .teams .carousel .card img{
     height: 150px;
     width: 150px;
@@ -433,10 +435,12 @@ section .title::after{
 .teams .carousel .card:hover img{
     border-color: #fff;
 }
+
 .owl-dots{
     text-align: center;
     margin-top: 20px;
 }
+/* Written by Anurag */
 .owl-dot{
     height: 13px;
     width: 13px;
@@ -603,6 +607,7 @@ footer{
         padding: 0 50px;
     }
 }
+/* Written by Anurag */
 @media (max-width: 947px){
     .menu-btn{
         display: block;
@@ -715,4 +720,16 @@ footer{
         font-size: 23px;
         line-height: 38px;
     }
+}
+
+.boxbtn {
+    width: 100px;
+    height: 50px;
+    margin: 1rem;
+    border: solid #fff;
+    border-radius: 6px;
+    background-color: #0f528a;
+    box-shadow: 1px 1px 3px #181818;
+    color: #fff;
+    cursor: pointer;
 }
